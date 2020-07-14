@@ -10,6 +10,7 @@ body {
 }
 .cont_box {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .cont_box .p_0 {
   padding: 0 !important;
@@ -24,8 +25,11 @@ body {
 .cont_box .box_bg {
   background-color: #3696a2;
 }
-.cont_box .box_min_h {
+.cont_box .box_min_h_4 {
   min-height: 400px;
+}
+.cont_box .box_min_h_2 {
+  min-height: 200px;
 }
 .cont_box .box_max_w {
   max-width: 400px;
@@ -43,6 +47,9 @@ body {
 .cont_box .per_bot {
   margin-bottom: 30px;
 }
+.cont_box .box_p {
+  text-align: center;
+}
 .cont_box .Personal_profile {
   min-height: 400px;
   width: auto;
@@ -56,6 +63,11 @@ body {
   color: white;
   text-align: center;
 }
+.cont_box .Personal_profile .par_dark {
+  font-size: 50px;
+  color: #666666;
+  text-align: center;
+}
 .cont_box .Personal_profile .box_portrait {
   flex-direction: column;
   color: white;
@@ -63,16 +75,175 @@ body {
 .cont_box .Personal_profile .img-circle {
   margin-bottom: 35px;
 }
+.cont_box .Personal_profile .par_img {
+  height: 100%;
+  width: 100%;
+  background: url(../img/IMG_20181129_074709.jpg) no-repeat center;
+  background-size: 916px;
+}
 .cont_box .Mastered_skills {
-  height: 350px;
+  height: 330px;
   width: auto;
   background-color: #3696a2;
   margin-bottom: 25px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.cont_box .Mastered_skills .mast_title_box {
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+.cont_box .Mastered_skills .mast_title_box .mast_title {
+  color: white;
+}
+.cont_box .Mastered_skills .mast_swiper_box {
+  height: 230px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper-slide {
+  width: auto;
+  /*根据内容调整宽度*/
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon {
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 100px;
+  background-color: #ffffff;
+  transition: all 0.8s;
+  margin-top: 10px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_HTML {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/html.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_CSS3 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/css3.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_JS {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/java-script.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_JQ {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/jquery.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_WX {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/wx_xcx.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_SQL {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/mysql.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_PHP {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/php.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_boot {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/bootstrap.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_Ax {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/AxureRP.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_Ps {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/ps-f.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_icon:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: #00000061 10px 10px 8px;
 }
 .cont_box .Project_presentation {
-  height: 500px;
+  height: auto;
   width: auto;
   background-color: #3696a2;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px 10px 15px;
+  color: #ffffff;
+}
+.cont_box .Project_presentation .box_style {
+  flex-direction: column;
+}
+.cont_box .Project_presentation .Proj_img:hover {
+  transform: translate(-2px, -5px);
+  box-shadow: #00000061 10px 10px 8px;
+}
+.cont_box .Project_presentation .Proj_box {
+  height: 315px;
+  width: auto;
+  padding: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.cont_box .Project_presentation .Proj_box .Proj_img {
+  height: 100%;
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: all 0.8s;
+}
+footer {
+  height: 155px;
+  width: 100%;
+  background: #666666;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 1200px) {
   .container {
