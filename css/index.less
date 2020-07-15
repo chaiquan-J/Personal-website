@@ -60,6 +60,26 @@ body {
     margin-bottom: 30px;
   }
 
+  .Pers_one {
+    display: none;
+  }
+
+  .Pers_two {
+    display: none;
+  }
+
+  .Pers_three {
+    display: none;
+  }
+
+  .Mast_fade {
+    display: none;
+  }
+
+  .Proj_fade {
+    display: none;
+  }
+
   .box_p {
     text-align: center;
   }
@@ -69,6 +89,7 @@ body {
     min-height: 400px;
     width: auto;
     background-color: white;
+    // display: none;
 
     .box_style {
       flex-direction: column;
@@ -279,6 +300,7 @@ body {
     .PC_box {
       height: auto;
       padding-left: 40px;
+
       .Proj_box {
         height: 315px;
         width: auto;
@@ -298,6 +320,7 @@ body {
 
     .Wx_box {
       height: auto;
+
       .Wx_app_box {
         height: 524px;
         width: auto;
@@ -328,6 +351,7 @@ body {
         }
       }
     }
+
     .mast_tab {
       a {
         color: #000000;
@@ -336,16 +360,22 @@ body {
   }
 }
 
-footer {
-  height: 155px;
-  width: 100%;
-  background: #666666;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+// 页脚
+.foot_fade {
+  display: none;
+
+  footer {
+    height: 155px;
+    width: 100%;
+    background: #666666;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 
 // 媒体查询
 @media (min-width: 1200px) {

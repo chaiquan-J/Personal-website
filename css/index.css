@@ -47,6 +47,21 @@ body {
 .cont_box .per_bot {
   margin-bottom: 30px;
 }
+.cont_box .Pers_one {
+  display: none;
+}
+.cont_box .Pers_two {
+  display: none;
+}
+.cont_box .Pers_three {
+  display: none;
+}
+.cont_box .Mast_fade {
+  display: none;
+}
+.cont_box .Proj_fade {
+  display: none;
+}
 .cont_box .box_p {
   text-align: center;
 }
@@ -278,7 +293,10 @@ body {
 .cont_box .Project_presentation .mast_tab a {
   color: #000000;
 }
-footer {
+.foot_fade {
+  display: none;
+}
+.foot_fade footer {
   height: 155px;
   width: 100%;
   background: #666666;
