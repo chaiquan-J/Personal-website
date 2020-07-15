@@ -225,39 +225,58 @@ body {
   transform: translate(-2px, -5px);
   box-shadow: #00000061 10px 10px 8px;
 }
+.cont_box .Project_presentation .Mob_img:hover {
+  transform: translate(-2px, -5px);
+  box-shadow: #00000061 10px 10px 8px;
+}
 .cont_box .Project_presentation .PC_box {
   height: auto;
   padding-left: 40px;
 }
-.cont_box .Project_presentation .Wx_box {
-  height: auto;
-}
-.cont_box .Project_presentation .Wx_app_box {
-  height: 524px;
-  width: auto;
-  margin-top: 15px;
-}
-.cont_box .Project_presentation .Wx_app_box .Wx_img {
-  height: 100%;
-  width: auto;
-  transition: all 0.8s;
-}
-.cont_box .Project_presentation .mast_tab a {
-  color: #000000;
-}
-.cont_box .Project_presentation .Proj_box {
+.cont_box .Project_presentation .PC_box .Proj_box {
   height: 315px;
   width: auto;
   padding: 30px;
   color: #ffffff;
   border-radius: 10px;
 }
-.cont_box .Project_presentation .Proj_box .Proj_img {
+.cont_box .Project_presentation .PC_box .Proj_box .Proj_img {
   height: 100%;
   width: auto;
   margin-bottom: 10px;
   border-radius: 10px;
   transition: all 0.8s;
+}
+.cont_box .Project_presentation .Wx_box {
+  height: auto;
+}
+.cont_box .Project_presentation .Wx_box .Wx_app_box {
+  height: 524px;
+  width: auto;
+  margin-top: 15px;
+}
+.cont_box .Project_presentation .Wx_box .Wx_app_box .Wx_img {
+  height: 100%;
+  width: auto;
+  transition: all 0.8s;
+}
+.cont_box .Project_presentation .Mob_box {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.cont_box .Project_presentation .Mob_box .Mob_img_box {
+  height: 460px;
+  width: auto;
+  margin-top: 25px;
+}
+.cont_box .Project_presentation .Mob_box .Mob_img_box .Mob_img {
+  height: 100%;
+  width: auto;
+  transition: all 0.8s;
+}
+.cont_box .Project_presentation .mast_tab a {
+  color: #000000;
 }
 footer {
   height: 155px;
@@ -295,12 +314,36 @@ footer {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 0px;
+  }
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 40px;
+  }
+  .cont_box .Project_presentation .Wx_ful {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   .col-lg-6 {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .Pers_two {
+    flex-direction: column-reverse;
+  }
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 85px;
+  }
+  .cont_box .Project_presentation .Wx_ful {
+    display: block;
+  }
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 70px;
+  }
+  .cont_box .Project_presentation .Mob_box {
+    flex-direction: column;
   }
 }
 @media (max-width: 770px) {
@@ -309,6 +352,15 @@ footer {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .Pers_two {
+    flex-direction: column-reverse;
+  }
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 0px;
+  }
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 0px;
+  }
 }
 @media (max-width: 576px) {
   .col-sm-12 {
@@ -316,58 +368,6 @@ footer {
     flex: 0 0 100%;
     max-width: 100%;
   }
-}
-@media (max-width: 770px) {
-  .Pers_two {
-    flex-direction: column-reverse;
-  }
-}
-@media (max-width: 992px) {
-  .Pers_two {
-    flex-direction: column-reverse;
-  }
-}
-@media (max-width: 1200px) {
-  .cont_box .Project_presentation .PC_box {
-    padding-left: 0px;
-  }
-}
-@media (max-width: 992px) {
-  .cont_box .Project_presentation .PC_box {
-    padding-left: 85px;
-  }
-}
-@media (max-width: 770px) {
-  .cont_box .Project_presentation .PC_box {
-    padding-left: 0px;
-  }
-}
-@media (max-width: 1200px) {
-  .cont_box .Project_presentation .Wx_box {
-    padding-left: 40px;
-  }
-}
-@media (max-width: 1200px) {
-  .cont_box .Project_presentation .Wx_ful {
-    display: none;
-  }
-}
-@media (max-width: 992px) {
-  .cont_box .Project_presentation .Wx_ful {
-    display: block;
-  }
-}
-@media (max-width: 992px) {
-  .cont_box .Project_presentation .Wx_box {
-    padding-left: 70px;
-  }
-}
-@media (max-width: 770px) {
-  .cont_box .Project_presentation .Wx_box {
-    padding-left: 0px;
-  }
-}
-@media (max-width: 576px) {
   .cont_box .Project_presentation .Wx_box {
     padding-left: 0px;
   }
