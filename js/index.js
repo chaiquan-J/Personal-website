@@ -7,12 +7,31 @@ var mySwiper = new Swiper('.mast_swiper', {
         disableOnInteraction: false,
     },
     loop: true,
-    speed: 500,
+    speed: 1000,
     freeMode: true,
     slidesPerView: 3,
     centeredSlides: true,
     slideToClickedSlide: true,
     freeModeMomentumBounce: false,
+})
+
+$(function () {
+    // 当前点击的图片弹出模态框
+    $('.bs-example-modal-lg').on('shown.bs.modal', function (e) {
+        // console.log(e.relatedTarget.src);
+        var thisSrc = e.relatedTarget.src;
+        $('.modo_img').attr('src', thisSrc);
+    })
+
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
+    $('#myTabs a[href="#Wx_applet"]').tab('show') // Select tab by name
+    $('#myTabs a:first').tab('show') // Select first tab
+    $('#myTabs a:last').tab('show') // Select last tab
+    $('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
 })
 
 // 监听页面缩放改变swiper显示个数 未完成

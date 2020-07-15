@@ -254,7 +254,7 @@ body {
     background-color: #3696a2;
     justify-content: center;
     align-items: center;
-    padding: 5px 15px 10px 15px;
+    padding: 0px 15px 10px 15px;
     color: #ffffff;
 
     .box_style {
@@ -264,6 +264,39 @@ body {
     .Proj_img:hover {
       transform: translate(-2px, -5px);
       box-shadow: #00000061 10px 10px 8px;
+    }
+
+    .Wx_img:hover {
+      transform: translate(-2px, -5px);
+      box-shadow: #00000061 10px 10px 8px;
+    }
+
+    .PC_box {
+      height: auto;
+      padding-left: 40px;
+    }
+
+    .Wx_box {
+      height: auto;
+      // padding-top: 5px;
+    }
+
+    .Wx_app_box {
+      height: 524px;
+      width: auto;
+      margin-top: 15px;
+
+      .Wx_img {
+        height: 100%;
+        width: auto;
+        transition: all 0.8s;
+      }
+    }
+
+    .mast_tab {
+      a {
+        color: #000000;
+      }
     }
 
     .Proj_box {
@@ -362,5 +395,60 @@ footer {
 @media (max-width: 992px) {
   .Pers_two {
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 85px;
+  }
+}
+
+@media (max-width: 770px) {
+  .cont_box .Project_presentation .PC_box {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width:1200px) {
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width:1200px) {
+  .cont_box .Project_presentation .Wx_ful {
+    display: none;
+  }
+}
+
+@media (max-width:992px) {
+  .cont_box .Project_presentation .Wx_ful {
+    display: block;
+  }
+}
+
+@media (max-width:992px) {
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 70px;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cont_box .Project_presentation .Wx_box {
+    padding-left: 0px;
   }
 }
