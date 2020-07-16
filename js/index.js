@@ -1,11 +1,4 @@
 $(function () {
-  // 当前点击的图片弹出模态框
-  $(".bs-example-modal-lg").on("shown.bs.modal", function (e) {
-    // console.log(e.relatedTarget.src);
-    var thisSrc = e.relatedTarget.src;
-    $(".modo_img").attr("src", thisSrc);
-  });
-
   $("#myTabs a").click(function (e) {
     e.preventDefault();
     $(this).tab("show");
@@ -16,6 +9,7 @@ $(function () {
   $("#myTabs a:last").tab("show"); // Select last tab
   $("#myTabs li:eq(2) a").tab("show"); // Select third tab (0-indexed)
 
+  // 淡入页面
   window.onload = function () {
     $(".Pers_one").fadeIn(1000);
     $(".Pers_two").fadeIn(1500);
@@ -52,5 +46,5 @@ $(function () {
     });
     $(".Proj_fade").fadeIn(3000);
     $(".foot_fade").fadeIn(3500);
-  }
+  };
 });

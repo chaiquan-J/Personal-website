@@ -3,16 +3,24 @@
   padding: 0;
 }
 
+html {
+  background: url(../img/bg.png) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+}
+
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #666666;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
+  min-height: 100%;
 }
 
 .cont_box {
   margin-top: 20px;
   margin-bottom: 20px;
+  position: relative;
 
   // 全局通用样式
   .p_0 {
@@ -29,7 +37,7 @@ body {
   }
 
   .box_bg {
-    background-color: #3696a2;
+    background-color: #0894b9c7;
   }
 
   .box_min_h_4 {
@@ -88,7 +96,7 @@ body {
   .Personal_profile {
     min-height: 400px;
     width: auto;
-    background-color: white;
+    background-color: #ffffffba;
     // display: none;
 
     .box_style {
@@ -128,7 +136,7 @@ body {
   .Mastered_skills {
     height: 330px;
     width: auto;
-    background-color: #3696a2;
+    background-color: #0894b9c7;
     margin-bottom: 25px;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -271,7 +279,7 @@ body {
   .Project_presentation {
     height: auto;
     width: auto;
-    background-color: #3696a2;
+    background-color: #0894b9c7;
     justify-content: center;
     align-items: center;
     padding: 0px 15px 10px 15px;
@@ -367,7 +375,7 @@ body {
   footer {
     height: 155px;
     width: 100%;
-    background: #666666;
+    background: #66666678;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -375,7 +383,6 @@ body {
     align-items: center;
   }
 }
-
 
 // 媒体查询
 @media (min-width: 1200px) {

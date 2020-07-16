@@ -2,15 +2,22 @@
   margin: 0;
   padding: 0;
 }
+html {
+  background: url(../img/bg.png) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+}
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #666666;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
+  min-height: 100%;
 }
 .cont_box {
   margin-top: 20px;
   margin-bottom: 20px;
+  position: relative;
 }
 .cont_box .p_0 {
   padding: 0 !important;
@@ -23,7 +30,7 @@ body {
   flex-wrap: wrap;
 }
 .cont_box .box_bg {
-  background-color: #3696a2;
+  background-color: #0894b9c7;
 }
 .cont_box .box_min_h_4 {
   min-height: 400px;
@@ -68,7 +75,7 @@ body {
 .cont_box .Personal_profile {
   min-height: 400px;
   width: auto;
-  background-color: white;
+  background-color: #ffffffba;
 }
 .cont_box .Personal_profile .box_style {
   flex-direction: column;
@@ -99,7 +106,7 @@ body {
 .cont_box .Mastered_skills {
   height: 330px;
   width: auto;
-  background-color: #3696a2;
+  background-color: #0894b9c7;
   margin-bottom: 25px;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -223,7 +230,7 @@ body {
 .cont_box .Project_presentation {
   height: auto;
   width: auto;
-  background-color: #3696a2;
+  background-color: #0894b9c7;
   justify-content: center;
   align-items: center;
   padding: 0px 15px 10px 15px;
@@ -299,7 +306,7 @@ body {
 .foot_fade footer {
   height: 155px;
   width: 100%;
-  background: #666666;
+  background: #66666678;
   color: #ffffff;
   display: flex;
   flex-direction: column;
