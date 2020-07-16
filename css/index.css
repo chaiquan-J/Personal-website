@@ -3,7 +3,10 @@
   padding: 0;
 }
 html {
-  background: url(../img/bg.png) no-repeat center center;
+  background: url(p_w_picpaths/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   min-height: 100%;
   background-size: cover;
 }
@@ -12,7 +15,6 @@ body {
   font-size: 18px;
   color: #666666;
   background-color: #f4f4f400;
-  min-height: 100%;
 }
 .cont_box {
   margin-top: 20px;
