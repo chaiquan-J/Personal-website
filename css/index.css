@@ -225,6 +225,14 @@ body {
   background-size: 80px;
   border-radius: 100px;
 }
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_Less {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/less.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
 .cont_box .Mastered_skills .mast_swiper_box .swiper_icon:hover {
   transform: translate(-5px, -5px);
   box-shadow: #00000061 10px 10px 8px;

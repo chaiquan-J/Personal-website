@@ -11,10 +11,10 @@ $(function () {
 
   // 淡入页面
   window.onload = function () {
-    $(".Pers_one").fadeIn(1000);
-    $(".Pers_two").fadeIn(1500);
-    $(".Pers_three").fadeIn(2000);
-    $(".Mast_fade").fadeIn(2500);
+    $(".Pers_one").fadeIn(1500);
+    $(".Pers_two").fadeIn(2500);
+    $(".Pers_three").fadeIn(3500);
+    $(".Mast_fade").fadeIn(3000);
     // 轮播
     var mySwiper = new Swiper(".mast_swiper", {
       // autoplay: true,//可选选项，自动滑动
@@ -45,6 +45,6 @@ $(function () {
       freeModeMomentumBounce: false,
     });
     $(".Proj_fade").fadeIn(3000);
-    $(".foot_fade").fadeIn(3500);
+    $(".foot_fade").fadeIn(3000);
   };
 });
