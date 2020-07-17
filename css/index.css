@@ -365,7 +365,7 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .Pers_two {
+  .Pers_cent {
     flex-direction: column-reverse;
   }
   .cont_box .Project_presentation .PC_box {
@@ -386,9 +386,6 @@ body {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
-  }
-  .Pers_cent {
-    flex-direction: column-reverse;
   }
   .cont_box .Project_presentation .PC_box {
     padding-left: 0px;
