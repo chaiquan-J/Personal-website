@@ -17,7 +17,6 @@ body {
   background-color: #f4f4f400;
 }
 .cont_box {
-  margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -58,6 +57,7 @@ body {
 }
 .cont_box .Pers_one {
   display: none;
+  margin-top: 20px;
 }
 .cont_box .Pers_two {
   display: none;
