@@ -11,7 +11,7 @@ html {
   background-size: cover;
 }
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #666666;
   background-color: #f4f4f400;
@@ -166,6 +166,22 @@ body {
   height: 100%;
   width: 100%;
   background: url(../img/icon/java-script.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_Vue {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/vue.png) no-repeat center 37px;
+  background-size: 80px;
+  border-radius: 100px;
+}
+.cont_box .Mastered_skills .mast_swiper_box .swiper_cont_box .swiper_icon .icon_uni {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/icon/uniapp.png) no-repeat center 37px;
   background-size: 80px;
   border-radius: 100px;
 }
